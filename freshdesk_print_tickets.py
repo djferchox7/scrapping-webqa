@@ -10,8 +10,8 @@ START_ID = 672
 END_ID = 673
 OUTPUT_DIR = "tickets_pdf"
 DELAY = 1.5
-ID_TENANT = "451979510707337272"
-CLIENT= "corpei"
+ID_TENANT = "<<ingrese su tenant id>>"
+CLIENT= "<<ingrese su subdomain>>"
 
 if not os.path.exists(OUTPUT_DIR):
     os.makedirs(OUTPUT_DIR)
